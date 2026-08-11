@@ -1,0 +1,29 @@
+{
+  "name": "clear-recovery-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "VERCEL=1 next dev",
+    "build": "VERCEL=1 next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.2",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/web-push": "latest",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.0",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "buildCommand": "VERCEL=1 npm run build",
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/daily-push",
+      "schedule": "0 16 * * *"
+    },
+    {
+      "path": "/api/cron/daily-push",
+      "schedule": "0 17 * * *"
+    }
+  ]
+}
